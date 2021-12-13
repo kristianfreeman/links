@@ -27,24 +27,28 @@
     </a>
 	</div>
 
-	<div class="space-y-4 w-full">
+	<div class="w-full mt-4 space-y-4">
 		<Link
       icon="star"
       iconStyle="fill-current text-orange-400"
-			text="Weekly videos on programming, dev career, and more"
+			text="Weekly videos on programming, developer careers, and more - 5k subs on YouTube and growing!"
 			url="/sub"
 		/>
 
 		<Link
+      icon="send"
+			text="My (infrequent) newsletter for developers"
+			url="https://www.getrevue.co/profile/signalnerve"
+		/>
+	</div>
+
+  <h2 class="text-xl mt-12 mb-4">Courses</h2>
+
+	<div class="w-full space-y-4">
+		<Link
       icon="video"
 			text="Build persistent data-driven apps with Workers KV"
 			url="https://egghead.io/courses/build-data-driven-applications-on-the-edge-with-workers-and-workers-kv-4932f3ea"
-		/>
-
-		<Link
-      icon="book-open"
-			text="Build Web3 Apps on Cloudflare"
-			url="https://blog.cloudflare.com/get-started-web3/"
 		/>
 
 		<Link
@@ -63,6 +67,22 @@
       icon="video"
 			text="My intro to Cloudflare Workers course"
 			url="https://egghead.io/courses/introduction-to-cloudflare-workers-5aa3"
+		/>
+	</div>
+
+  <h2 class="text-xl mt-12 mb-4">Open Source</h2>
+
+	<div class="w-full space-y-4">
+		<Link
+      icon="link"
+			text="Lilredirector: bulk redirect tool for Cloudflare Workers"
+			url="https://github.com/signalnerve/lilredirector"
+		/>
+
+		<Link
+      icon="code"
+			text="GraphQL server for Cloudflare Workers"
+			url="https://github.com/signalnerve/workers-graphql-server"
 		/>
 	</div>
 </div>
