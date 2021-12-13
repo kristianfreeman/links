@@ -9,5 +9,5 @@
       class: iconStyle,
     })}
   {/if}
-  <span class="ml-4">{text}</span>
+  <span class="mx-8">{text}</span>
 </a>

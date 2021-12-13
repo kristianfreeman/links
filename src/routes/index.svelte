@@ -2,7 +2,7 @@
 	import Link from '../components/Link.svelte';
 </script>
 
-<div class="mx-auto max-w-xl flex flex-col justify-center items-center p-8">
+<div class="mx-auto max-w-xl flex flex-col justify-center items-center px-2 md:px-8 py-8">
   <a href="/twitter" tabindex="-1">
 	  <img
 	  	alt="Code with Kristian"
@@ -31,7 +31,7 @@
 		<Link
       icon="star"
       iconStyle="fill-current text-orange-400"
-			text="Weekly videos on programming, developer careers, and more - 5k subs on YouTube and growing!"
+			text="Weekly videos on programming & dev careers"
 			url="/sub"
 		/>
 
@@ -42,7 +42,7 @@
 		/>
 	</div>
 
-  <h2 class="text-xl mt-12 mb-4">Courses</h2>
+  <h2 class="font-semibold text-xl mt-12 mb-4">Courses</h2>
 
 	<div class="w-full space-y-4">
 		<Link
@@ -70,7 +70,7 @@
 		/>
 	</div>
 
-  <h2 class="text-xl mt-12 mb-4">Open Source</h2>
+  <h2 class="font-semibold text-xl mt-12 mb-4">Open Source</h2>
 
 	<div class="w-full space-y-4">
 		<Link
@@ -81,7 +81,7 @@
 
 		<Link
       icon="code"
-			text="GraphQL server for Cloudflare Workers"
+			text="Apollo GraphQL Server for Cloudflare Workers"
 			url="https://github.com/signalnerve/workers-graphql-server"
 		/>
 	</div>
