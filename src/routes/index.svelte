@@ -1,5 +1,4 @@
 <script>
-  import feather from 'feather-icons'
 	import Link from '../components/Link.svelte';
 </script>
 
@@ -16,15 +15,15 @@
 
 	<div class="flex mb-8 space-x-8">
 		<a class="hover:text-orange-400 transition-all" href="/twitter">
-      {@html feather.icons.twitter.toSvg()}
-    </a>
-
-		<a class="hover:text-orange-400 transition-all" href="/github">
-      {@html feather.icons.github.toSvg()}
+			<img alt="Twitter" class="w-8" src="/icons/twitter.gif" />
     </a>
 
 		<a class="hover:text-orange-400 transition-all" href="/sub">
-      {@html feather.icons.youtube.toSvg()}
+			<img alt="YouTube" class="w-8" src="/icons/youtube.gif" />
+    </a>
+
+		<a class="hover:text-orange-400 transition-all" href="/github">
+			<img alt="GitHub" class="w-8" src="/icons/github.gif" />
     </a>
 	</div>
 
