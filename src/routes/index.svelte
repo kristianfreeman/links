@@ -14,7 +14,7 @@
 	<h1 class="text-2xl mb-4 font-bold">Code with Kristian</h1>
 
 	<div class="flex mb-8 space-x-8">
-		<a class="focus:scale-125 hover:scale-125 transition-all" href="https://kristianfreeman.com//twitter">
+		<a class="focus:scale-125 hover:scale-125 transition-all" href="https://kristianfreeman.com/twitter">
 			<img alt="Twitter" class="w-8" src="/icons/twitter.gif" />
     </a>
 
